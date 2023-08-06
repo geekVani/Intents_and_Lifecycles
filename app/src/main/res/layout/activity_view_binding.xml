@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4CBCB"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ViewBinding">
+
+    <TextView
+        android:id="@+id/tvTODO"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:text="Favourite Item"
+        android:textAllCaps="true"
+        android:textColor="#2E0202"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Enter a item name"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp" />
+
+    <Button
+        android:id="@+id/btnTodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#5C0707"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:pointerIcon="top_right_diagonal_double_arrow"
+        android:text="Display Item"
+        android:textAllCaps="false"
+        android:textColor="#F3EFEF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvResultItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#0E0E0E"
+        android:textSize="28sp" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".ServiceActivity">
+
+    <Button
+        android:id="@+id/btnStartClassic"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="40dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#6A0808"
+        android:text="@string/start_classic"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnJobIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="40dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#6A0808"
+        android:text="@string/job_intent"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnStopClassic"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_margin="40dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#6A0808"
+        android:text="@string/stop_classic"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

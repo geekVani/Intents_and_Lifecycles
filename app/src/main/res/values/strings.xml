@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Intents and Lifecycles</string>
+    <string name="age">Please enter your age</string>
+    <string name="phone">Please enter phone num</string>
+    <string name="email">abc@xyz.com</string>
+    <string name="name">Please enter your name</string>
+    <string name="title">User Information</string>
+    <string name="submit">Submit</string>
+    <string name="data">User Data</string>
+    <string name="fragment">Fragment</string>
+    <string name="stop_classic">Stop Classic Service</string>
+    <string name="job_intent">Start Job Intent Service</string>
+    <string name="start_classic">Start Classic Service</string>
+    <string name="service">Show Service</string>
+    <string name="view_binding">View Binding</string>
+</resources>
